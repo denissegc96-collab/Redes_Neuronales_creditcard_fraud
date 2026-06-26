@@ -1,0 +1,26 @@
+# --- Datos (NO subir el dataset: es grande y tiene licencia de Kaggle) ---
+*.csv
+archive/
+data/
+creditcard.csv
+
+# --- MLflow ---
+mlruns/
+mlartifacts/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- SO / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Mantener las gráficas generadas dentro de results/ (no ignorarlas)
+!results/
+!results/*.png
