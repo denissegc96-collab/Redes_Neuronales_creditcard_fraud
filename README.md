@@ -1,4 +1,4 @@
-# Detección de fraude en tarjetas de crédito con una Red Neuronal 🧠💳
+# Detección de fraude en tarjetas de crédito con una Red Neuronal
 
 Tarea de **Redes Neuronales Artificiales** — Dr. Jorge Velazquez-Castro.
 Problema 2: **Detectar fraudes en movimientos de tarjetas bancarias**.
@@ -10,7 +10,7 @@ seguimiento de experimentos en **MLflow** y gráficas de **loss/accuracy** (entr
 
 ---
 
-## 📦 Contenido del repositorio
+##  Contenido del repositorio
 
 ```
 creditcard-fraud-nn/
@@ -26,12 +26,12 @@ creditcard-fraud-nn/
 └── README.md
 ```
 
-> ⚠️ El dataset `creditcard.csv` (~144 MB) **no** se incluye en el repo (ver `.gitignore`).
+>  El dataset `creditcard.csv` (~144 MB) **no** se incluye en el repo (ver `.gitignore`).
 > Descárgalo de Kaggle: <https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud>
 
 ---
 
-## ▶️ Opción A — Google Colab (recomendada)
+## Opción A — Google Colab (recomendada)
 
 1. Sube `notebooks/fraude_tarjetas_colab.ipynb` a [Google Colab](https://colab.research.google.com/)
    (o ábrelo desde GitHub: *File → Open notebook → GitHub*).
@@ -46,7 +46,7 @@ creditcard-fraud-nn/
    ```
    y copia el contenido de `results/` a la carpeta `results/` del repositorio.
 
-## 💻 Opción B — Local (PC con Python)
+## Opción B — Local (PC con Python)
 
 ```bash
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ mlflow ui          # abre http://127.0.0.1:5000 para ver las métricas
 
 ---
 
-## 🧪 Experimentos (varios entrenamientos)
+##  Experimentos (varios entrenamientos)
 
 | Experimento | Técnica contra el desbalance |
 |---|---|
@@ -70,7 +70,7 @@ desbalance). Detalles en [`report/REPORTE.md`](report/REPORTE.md).
 
 ---
 
-## 🔗 Enlaces de entrega
+## Enlaces de entrega
 
 > Todos los enlaces son **públicos**.
 
